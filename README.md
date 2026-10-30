@@ -41,3 +41,13 @@ git merge development
 ```bash
 git push origin main
 ```
+## Smart Commits
+
+Smart Commits allow developers to interact with Jira issues
+directly from Git commit messages.
+
+Example:
+
+```bash
+git commit -m "PROM-42164 #comment Added Git workflow instructions"
+```
